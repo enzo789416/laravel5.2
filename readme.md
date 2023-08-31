@@ -1,115 +1,108 @@
 ![Laravel](https://img.shields.io/badge/Laravel-8.1-brightgreen) ![HTML](https://img.shields.io/badge/HTML-5-orange) ![CSS](https://img.shields.io/badge/CSS-3-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![dg/rss-php](https://img.shields.io/badge/dg/rss--php-1.8.4-blue)
-# Energity: Fórum Mobile sobre Problemas Elétricos
 
-O Energity é um aplicativo móvel focado em abordar questões relacionadas à eficiência, autonomia e segurança dos sistemas elétricos, buscando conscientizar os usuários sobre o consumo de energia e os desafios enfrentados no setor elétrico. Este repositório contém informações sobre o projeto Energity, sua justificativa, objetivos, metodologia, resultados e conclusões.
+# Energity: Mobile Forum on Electrical Issues
 
-# Justificativa
+Energity is a mobile application focused on addressing issues related to electrical systems' efficiency, autonomy, and safety, aiming to raise awareness among users about energy consumption and challenges in the electrical sector. This repository contains information about the Energity project, its justification, objectives, methodology, results, and conclusions.
 
-O Energity é um aplicativo que aborda questões críticas relacionadas à energia elétrica no Brasil:
+# Justification
 
-- **Acesso à Energia:** 97,8% dos domicílios têm acesso à eletricidade, mas o entendimento eficaz do consumo é limitado.
+Energity is an application that addresses critical issues related to electrical energy in Brazil:
 
-- **Custo Elevado:** O custo da energia elétrica no Brasil é desafiador, com um brasileiro médio trabalhando 11,1 horas por mês para pagar a conta de luz.
+- **Access to Energy:** 97.8% of households have access to electricity, but effective understanding of consumption is limited.
 
-- **Encargos Tributários:** Cerca de 34,02% da fatura de energia é composta por encargos tributários.
+- **High Cost:** The cost of electricity in Brazil is challenging, with an average Brazilian working 11.1 hours per month to pay the electricity bill.
 
-- **Assimetria na Gestão:** A falta de acesso a informações impede os consumidores de tomar decisões informadas.
+- **Tax Burden:** About 34.02% of the electricity bill consists of tax charges.
 
-O Energity busca enfrentar esses desafios, capacitando os usuários a compreender, discutir e compartilhar informações sobre eficiência energética, segurança elétrica e notícias relevantes, promovendo um uso mais consciente da eletricidade.
+- **Asymmetry in Management:** Lack of access to information prevents consumers from making informed decisions.
 
+Energity seeks to address these challenges by empowering users to understand, discuss, and share information about energy efficiency, electrical safety, and relevant news, promoting more conscientious electricity use.
 
+# Objectives
 
-# Objetivo(s)
+## General Objective
 
-## Objetivo Geral
+The main objective of this project is to address issues related to the verification of electrical systems, energy efficiency, autonomy, and user safety. Our central approach involves developing a mobile application in the form of a forum.
 
-O principal objetivo deste projeto é abordar questões relacionadas à verificação de sistemas elétricos, eficiência energética, autonomia e segurança dos usuários. Nossa abordagem central envolve o desenvolvimento de um aplicativo móvel no formato de fórum.
+## Specific Objectives
 
-## Objetivos Específicos
+- **Communication:** Enable users to communicate with each other, sharing experiences and knowledge related to electrical systems.
 
-- **Comunicação:** Permitir que os usuários comuniquem-se entre si, compartilhando experiências e conhecimentos relacionados a sistemas elétricos.
+- **Relevant Information:** Provide relevant information about energy efficiency, maintenance, and safety in electricity use.
 
-- **Informações Relevantes:** Disponibilizar informações pertinentes sobre eficiência energética, manutenção e segurança no uso da eletricidade.
+- **Up-to-Date News:** Offer access to up-to-date news about the electrical sector, keeping users informed about changes and updates.
 
-- **Notícias Atualizadas:** Oferecer acesso a notícias atualizadas sobre o setor elétrico, mantendo os usuários informados sobre mudanças e novidades.
+- **Practical Tips:** Provide practical tips for efficient electricity use in daily life.
 
-- **Dicas Práticas:** Fornecer dicas práticas para o uso eficiente da energia elétrica no dia a dia.
+- **Awareness:** Raise awareness among users about the consequences of poor energy management, including financial and environmental impacts.
 
-- **Conscientização:** Conscientizar os usuários sobre as consequências de uma má administração energética, incluindo impactos financeiros e ambientais.
+# Methodology
 
+## Development of the Energity System
 
-# Metodologia
+The development of the Energity System, which includes a forum and a news page, followed the principles of software engineering, aiming for project organization and achieving high-quality software, as outlined by Sommerville (2011).
 
-## Desenvolvimento do Sistema Energity
+### Development Stages
 
-O desenvolvimento do Sistema Energity, que inclui um fórum e uma página de notícias, seguiu os princípios da engenharia de software, visando à organização do projeto e à obtenção de um software de alta qualidade, conforme delineado por Sommerville (2011).
+To achieve our objectives, we divided the development process into several stages, based on Software Engineering concepts:
 
-### Etapas do Desenvolvimento
+1. **Scope Definition:** We clearly established the objectives and functionalities that the Energity System should encompass.
 
-Para alcançar nossos objetivos, dividimos o processo de desenvolvimento em várias etapas, com base em conceitos da Engenharia de Software:
+2. **Process Model:** We chose an appropriate process model to guide development, ensuring efficiency and organization.
 
-1. **Definição de Escopo:** Estabelecemos claramente os objetivos e as funcionalidades que o Sistema Energity deve abranger.
+3. **System Requirements:** We documented detailed functional and non-functional system requirements.
 
-2. **Modelo de Processo:** Escolhemos um modelo de processo adequado para guiar o desenvolvimento, garantindo eficiência e organização.
+4. **Test Cases:** We developed comprehensive test cases to ensure system quality and reliability.
 
-3. **Requisitos do Sistema:** Documentamos detalhadamente os requisitos funcionais e não funcionais do sistema.
+5. **Unified Modeling Language (UML):** We used UML to model and visualize the system, facilitating understanding and planning.
 
-4. **Casos de Teste:** Desenvolvemos casos de teste abrangentes para garantir a qualidade e a confiabilidade do sistema.
+6. **Screen Prototyping:** We created user interface prototypes to validate design and usability.
 
-5. **Linguagem de Modelagem Unificada (UML):** Utilizamos UML para modelar e visualizar o sistema, facilitando a compreensão e o planejamento.
+7. **Database:** We implemented a database to store forum and news information.
 
-6. **Prototipagem de Telas:** Criamos protótipos das interfaces do usuário para validar o design e a usabilidade.
+# Energity System Features
 
-7. **Banco de Dados:** Implementamos um banco de dados para armazenar informações do fórum e das notícias.
+The Energity System offers various features to meet users' needs regarding electrical systems, energy efficiency, and safety:
 
+## User Registration and Login
 
-# Funcionalidades do Sistema Energity
+- Users can register with their name, email, and password, with password confirmation for security.
+- Access via login to enjoy additional features.
 
-O Sistema Energity oferece diversas funcionalidades para atender às necessidades dos usuários em relação a sistemas elétricos, eficiência energética e segurança:
+## Interactive Forum
 
-## Cadastro e Login
+- Main forum page for discussions.
+- Interaction with discussions, comments, and participation.
+- Organization by categories for easy navigation.
 
-- Os usuários podem se cadastrar com nome, e-mail e senha, com confirmação de senha para segurança.
-- Acesso através de login para aproveitar recursos adicionais.
+## News Page
 
-### Fórum Interativo
+- Access to news related to electrical energy.
+- Available to everyone, even without login.
 
-- Página principal do fórum para discussões.
-- Interação com discussões, comentários e participações.
-- Organização por categorias para fácil navegação.
+The Energity System empowers users to share knowledge, discuss, and stay informed about electrical issues.
 
-### Página de Notícias
+# Discussions and Impacts
 
-- Acesso a notícias relacionadas à energia elétrica.
-- Disponível para todos, mesmo sem login.
+The Energity System promotes discussions on energy efficiency and electrical safety. It provides news from the electrical sector to keep users informed. It aims to raise awareness and empower users to make informed decisions about energy consumption.
 
-O Sistema Energity capacita os usuários a compartilhar conhecimento, discutir e se informar sobre questões elétricas.
+# Conclusion
 
-# Discussões e Impactos
+The Energity System is functional and available online, promoting awareness of electrical energy and energy efficiency.
 
-O Sistema Energity promove discussões sobre eficiência energética e segurança elétrica. Fornece notícias do setor elétrico para manter os usuários informados. Busca conscientizar e capacitar usuários para decisões informadas sobre consumo de energia.
+# Future and Improvements
 
-# Conclusão
+The Energity System will continue to evolve, focusing on:
 
-O Sistema Energity está funcional e disponível online, promovendo conscientização sobre energia elétrica e eficiência energética.
+- **Enhancement of Features:** Adding features to improve effectiveness and usability.
+- **Mobile App Development:** We plan to create a mobile app for greater accessibility.
 
+We are committed to meeting the community's needs and addressing challenges related to electrical energy in Brazil.
 
+# References
 
-# Futuro e Melhorias
+1. SOUZA, N. Bootstrap 4: Get to Know the World's Most Used Front-End Library. São Paulo: Casa do Código, 2018.
 
-O Sistema Energity continuará a evoluir, com foco em:
+2. SOMMERVILLE, Ian. Software Engineering. São Paulo, 2011.
 
-- **Aprimoramento de Funcionalidades:** Adição de recursos para melhorar a eficácia e a usabilidade.
-
-- **Desenvolvimento de Aplicativo Móvel:** Planejamos criar um aplicativo móvel para maior acessibilidade.
-
-Estamos comprometidos em atender às necessidades da comunidade e enfrentar os desafios relacionados à energia elétrica no Brasil.
-
-
-# Referências
-
-1. SOUZA, N. Bootstrap 4: Conheça a biblioteca front-end mais utilizada no mundo. São Paulo: Casa do Código, 2018.
-
-2. SOMMERVILLE, Ian. Engenharia de Software. São Paulo, 2011.
-
-3. FREEMAN, E. Use a cabeça: HTML com CSS e XHTML. Rio de Janeiro: Alta Books, 2008.
+3. FREEMAN, E. Use Your Head: HTML with CSS and XHTML. Rio de Janeiro: Alta Books, 2008.
